@@ -1,0 +1,42 @@
+{
+  "fractions": [
+    {
+      "fraction_name": "Византийская империя",
+      "units": {
+        "infantry": {
+          "Крестьяне": {
+            "image": "./images/units/Византийская империя/Крестьяне.png",
+            "specifications": {
+              "attack": 4,
+              "bonus": 0,
+              "totalDefence": 3,
+              "arm": 0,
+              "вefSkill": 3,
+              "shield":	0,
+              "health":	1
+            },
+            "description": ""
+          },
+          "Городское ополчение": {
+            "image": "",
+            "mainWeapon": "Легкое копье (ближний бой)",
+            "weaponAttributes": "Урон по кавалерии +4",
+            "specifications": {
+              "attack": 5,
+              "bonus": 2,
+              "totalDefence": 7,
+              "arm": 0,
+              "вefSkill": 1,
+              "shield":	6,
+              "health":	1
+            },
+            "description": ""
+          }
+        },
+        "cavalry": {
+
+        }
+      }
+    }
+  ]
+}
