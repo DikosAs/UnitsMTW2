@@ -126,31 +126,6 @@
             },
             "description": ""
           }
-        },
-        "Кавалерия": {
-          "Кавалерия ополчения": {
-            "image": "./images/units/Византийская империя/КавалерияОполчение.png",
-            "specifications": {
-              "Главное оружие": {
-                "name": "Кавалерийское копье (ближний бой)",
-                "weaponAttributes": "",
-                "attack": 7,
-                "bonus": 3
-              },
-              "Вторичное оружие": {
-                "name": "Кавалерийское копье (ближний бой)",
-                "weaponAttributes": "",
-                "attack": 7,
-                "bonus": 2
-              },
-              "totalDefence": 10,
-              "arm": 4,
-              "вefSkill": 3,
-              "shield":	3,
-              "health":	1
-            },
-            "description": ""
-          }
         }
       }
     }
