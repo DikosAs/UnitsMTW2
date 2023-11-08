@@ -3,6 +3,7 @@
 /.idea/
 /build/
 /Units Medieval Total War 2/
+/dist/
 *.rar
 *.spec
 .gitignore
