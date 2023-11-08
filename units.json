@@ -4,46 +4,46 @@
       "units": {
         "Пехота": {
           "Крестьяне": {
-            "image": "./images/units/Византийская империя/Крестьяне.png",
+            "image": "./images/Византийская империя/Крестьяне.png",
             "specifications": {
-              "Главное оружие": {
+              "primary": {
                 "weaponName": "Вилы (ближний бой)",
                 "weaponAttributes": "",
                 "attack": 4,
                 "bonus": 0
               },
-              "Вторичное оружие": {
-                "name": "",
+              "secondary": {
+                "weaponName": "",
                 "weaponAttributes": "",
                 "attack": 0,
                 "bonus": 0
               },
               "totalDefence": 3,
               "arm": 0,
-              "вefSkill": 3,
+              "defSkill": 3,
               "shield":	0,
               "health":	1
             },
             "description": ""
           },
           "Городское ополчение": {
-            "image": "./images/units/Византийская империя/ГородскоеОполчение.png",
+            "image": "./images/Византийская империя/ГородскоеОполчение.png",
             "specifications": {
-              "Главное оружие": {
+              "primary": {
                 "weaponName": "Легкое копье (ближний бой)",
                 "weaponAttributes": "Урон по кавалерии +4",
                 "attack": 5,
                 "bonus": 2
               },
-              "Вторичное оружие": {
-                "name": "",
+              "secondary": {
+                "weaponName": "",
                 "weaponAttributes": "",
                 "attack": 0,
                 "bonus": 0
               },
               "totalDefence": 7,
               "arm": 0,
-              "вefSkill": 1,
+              "defSkill": 1,
               "shield":	6,
               "health":	1
             },
@@ -52,23 +52,23 @@
         },
         "Кавалерия": {
           "Кавалерия ополчения": {
-            "image": "./images/units/Византийская империя/КавалерияОполчение.png",
+            "image": "./images/Византийская империя/КавалерияОполчение.png",
             "specifications": {
-              "Главное оружие": {
-                "name": "Кавалерийское копье (ближний бой)",
+              "primary": {
+                "weaponName": "Кавалерийское копье (ближний бой)",
                 "weaponAttributes": "",
                 "attack": 7,
                 "bonus": 3
               },
-              "Вторичное оружие": {
-                "name": "Кавалерийское копье (ближний бой)",
+              "secondary": {
+                "weaponName": "Кавалерийское копье (ближний бой)",
                 "weaponAttributes": "",
                 "attack": 7,
                 "bonus": 2
               },
               "totalDefence": 10,
               "arm": 4,
-              "вefSkill": 3,
+              "defSkill": 3,
               "shield":	3,
               "health":	1
             },
@@ -81,46 +81,46 @@
       "units": {
         "Пехота": {
           "Крестьяне": {
-            "image": "./images/units/Византийская империя/Крестьяне.png",
+            "image": "./images/Византийская империя/Крестьяне.png",
             "specifications": {
-              "Главное оружие": {
+              "primary": {
                 "weaponName": "Вилы (ближний бой)",
                 "weaponAttributes": "",
                 "attack": 4,
                 "bonus": 0
               },
-              "Вторичное оружие": {
-                "name": "",
+              "secondary": {
+                "weaponName": "",
                 "weaponAttributes": "",
                 "attack": 0,
                 "bonus": 0
               },
               "totalDefence": 3,
               "arm": 0,
-              "вefSkill": 3,
+              "defSkill": 3,
               "shield":	0,
               "health":	1
             },
             "description": ""
           },
           "Городское ополчение": {
-            "image": "./images/units/Византийская империя/ГородскоеОполчение.png",
+            "image": "./images/Византийская империя/ГородскоеОполчение.png",
             "specifications": {
-              "Главное оружие": {
+              "primary": {
                 "weaponName": "Легкое копье (ближний бой)",
                 "weaponAttributes": "Урон по кавалерии +4",
                 "attack": 5,
                 "bonus": 2
               },
-              "Вторичное оружие": {
-                "name": "",
+              "secondary": {
+                "weaponName": "",
                 "weaponAttributes": "",
                 "attack": 0,
                 "bonus": 0
               },
               "totalDefence": 7,
               "arm": 0,
-              "вefSkill": 1,
+              "defSkill": 1,
               "shield":	6,
               "health":	1
             },
