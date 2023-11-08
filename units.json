@@ -1,10 +1,8 @@
 {
-  "fractions": [
-    {
-      "fraction_name": "Византийская империя",
+  "fractions": {
+    "Византийская империя": {
       "units": {
-        "infantry": {
-          "unitTypeName": "Пехота",
+        "Пехота": {
           "Крестьяне": {
             "image": "./images/units/Византийская империя/Крестьяне.png",
             "specifications": {
@@ -52,8 +50,7 @@
             "description": ""
           }
         },
-        "cavalry": {
-          "unitTypeName": "Кавалерия",
+        "Кавалерия": {
           "Кавалерия ополчения": {
             "image": "./images/units/Византийская империя/КавалерияОполчение.png",
             "specifications": {
@@ -80,11 +77,9 @@
         }
       }
     },
-    {
-      "fraction_name": "Россия",
+    "Россия": {
       "units": {
-        "infantry": {
-          "unitTypeName": "Пехота",
+        "Пехота": {
           "Крестьяне": {
             "image": "./images/units/Византийская империя/Крестьяне.png",
             "specifications": {
@@ -132,8 +127,7 @@
             "description": ""
           }
         },
-        "cavalry": {
-          "unitTypeName": "Кавалерия",
+        "Кавалерия": {
           "Кавалерия ополчения": {
             "image": "./images/units/Византийская империя/КавалерияОполчение.png",
             "specifications": {
@@ -160,5 +154,5 @@
         }
       }
     }
-  ]
+  }
 }
