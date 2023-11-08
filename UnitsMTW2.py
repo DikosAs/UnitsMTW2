@@ -3,7 +3,7 @@ from flet import Row, TextButton, Image, Column, Text
 from flet import MainAxisAlignment, colors, border_radius
 import json
 
-with open("./units.json", "r", encoding="UTF-8") as file:
+with open("units.json", "r", encoding="UTF-8") as file:
     units_json = json.load(file)
 
 def getFractionsName() -> list[str]:
@@ -202,4 +202,4 @@ def App(page: flet.Page):
     mainMenu("e")
 
 if __name__ == '__main__':
-    flet.app(App)
+    flet.app(target=App)

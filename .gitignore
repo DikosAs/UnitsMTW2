@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/.idea/
+/build/
+/Units Medieval Total War 2/
+*.rar
+*.spec
+.gitignore
