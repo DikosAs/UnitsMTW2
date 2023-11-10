@@ -4,8 +4,9 @@
 /build/
 /Units Medieval Total War 2/
 /dist/
+/parssite/
+/app/
 *.rar
 *.spec
 .gitignore
-
-/parssite/
+*.zip

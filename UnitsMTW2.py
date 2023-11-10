@@ -1,4 +1,3 @@
-import time
 import flet
 from flet import Row, TextButton, Image, Column, Text
 from flet import MainAxisAlignment
@@ -145,7 +144,7 @@ def App(page: flet.Page):
                 [
                     Row(
                         [
-                            Image(src=f"https://wiki.totalwar.com/w/Archer_Militia_(SE)_(M2TW_unit).html")
+                            Image(src=unit_info.get("image"))
                         ],
                         alignment=MainAxisAlignment.CENTER
                     ),
