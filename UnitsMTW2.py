@@ -1,22 +1,23 @@
+import time
 import flet
 from flet import Row, TextButton, Image, Column, Text
-from flet import MainAxisAlignment, colors, border_radius
+from flet import MainAxisAlignment
 import json
 
 with open("units.json", "r", encoding="UTF-8") as file:
     units_json = json.load(file)
 
 def getFractionsName() -> list[str]:
-    return list(units_json.get("fractions").keys())
+    return list(units_json.keys())
 
 def getFractionUnitTypesName(fractionName: str) -> list[str]:
-    return list(units_json.get("fractions").get(fractionName).get("units").keys())
+    return list(units_json.get(fractionName).keys())
 
 def getUnitsName_forFractionAndTypes(fractionName: str, unitTypeName: str) -> list[str]:
-    return list(units_json.get("fractions").get(fractionName).get("units").get(unitTypeName))
+    return list(units_json.get(fractionName).get(unitTypeName))
 
 def getUnitInfo(fractionName: str, unitTypeName: str, unitName: str) -> dict:
-    return dict(units_json.get("fractions").get(fractionName).get("units").get(unitTypeName).get(unitName))
+    return dict(units_json.get(fractionName).get(unitTypeName).get(unitName))
 
 def App(page: flet.Page):
     page.title = "Units Medieval Total War 2"
@@ -78,14 +79,14 @@ def App(page: flet.Page):
                     )
                 )
 
-            page.add(
-                Row(
-                    [
-                        TextButton(text="Назад", width=400, height=50, on_click=mainMenu)
-                    ],
-                    alignment=MainAxisAlignment.CENTER
-                )
+        page.add(
+            Row(
+                [
+                    TextButton(text="Назад", width=400, height=50, on_click=mainMenu)
+                ],
+                alignment=MainAxisAlignment.CENTER
             )
+        )
 
 
         page.update()
@@ -118,14 +119,14 @@ def App(page: flet.Page):
                         alignment=MainAxisAlignment.CENTER
                     )
                 )
-            page.add(
-                Row(
-                    [
-                        TextButton(text="Назад", width=400, height=50, on_click=unitTypySelectMenu, data=data[0])
-                    ],
-                    alignment=MainAxisAlignment.CENTER
-                )
+        page.add(
+            Row(
+                [
+                    TextButton(text="Назад", width=400, height=50, on_click=unitTypySelectMenu, data=data[0])
+                ],
+                alignment=MainAxisAlignment.CENTER
             )
+        )
 
 
         page.update()
@@ -139,13 +140,12 @@ def App(page: flet.Page):
 
         data = e.control.data
         unit_info = getUnitInfo(data[0], data[1], data[2])
-
         page.add(
             Column(
                 [
                     Row(
                         [
-                            Image(unit_info.get("image"))
+                            Image(src=f"https://wiki.totalwar.com/w/Archer_Militia_(SE)_(M2TW_unit).html")
                         ],
                         alignment=MainAxisAlignment.CENTER
                     ),
@@ -153,10 +153,10 @@ def App(page: flet.Page):
                         [
                             Column(
                                 [
-                                    Text(unit_info.get("specifications").get("primary").get("weaponName"), width=200),
-                                    Text(f'Атрибут: {unit_info.get("specifications").get("primary").get("weaponAttributes") if unit_info.get("specifications").get("primary").get("weaponAttributes") != "" else "Нету"}', width=200, height=25),
-                                    Text(f'Атака: {unit_info.get("specifications").get("primary").get("attack")}', width=200),
-                                    Text(f'Бонусы: {unit_info.get("specifications").get("primary").get("bonus")}', width=200),
+                                    Text(unit_info.get("specifications").get("primary_weaponName"), width=200),
+                                    Text(f'Атрибут: {unit_info.get("specifications").get("primary_weaponAttributes") if unit_info.get("specifications").get("primary_weaponAttributes") != "" else "Нету"}', width=200, height=25),
+                                    Text(f'Атака: {unit_info.get("specifications").get("primary_attack")}', width=200),
+                                    Text(f'Бонусы: {unit_info.get("specifications").get("primary_bonus")}', width=200),
                                     Text(f''),
                                     Text(f'Тотальная защита: {unit_info.get("specifications").get("totalDefence")}'),
                                     Text(f'Броня: {unit_info.get("specifications").get("arm")}'),
@@ -166,10 +166,10 @@ def App(page: flet.Page):
                             ),
                             Column(
                                 [
-                                    Text(unit_info.get("specifications").get("secondary").get("weaponName") if unit_info.get("specifications").get("secondary").get("weaponName") != "" else "Второе оружие отсутствует", width=200, height=25),
-                                    Text(f'Атрибут: {unit_info.get("specifications").get("secondary").get("weaponAttributes") if unit_info.get("specifications").get("secondary").get("weaponAttributes") != "" else "Нету"}', width=200),
-                                    Text(f'Атака: {unit_info.get("specifications").get("secondary").get("attack")}', width=200),
-                                    Text(f'Бонусы: {unit_info.get("specifications").get("secondary").get("bonus")}', width=200),
+                                    Text(unit_info.get("specifications").get("secondary_weaponName") if unit_info.get("specifications").get("secondary_weaponName") != "" else "Второе оружие отсутствует", width=200, height=25),
+                                    Text(f'Атрибут: {unit_info.get("specifications").get("secondary_weaponAttributes") if unit_info.get("specifications").get("secondary_weaponAttributes") != "" else "Нету"}', width=200),
+                                    Text(f'Атака: {unit_info.get("specifications").get("secondary_attack")}', width=200),
+                                    Text(f'Бонусы: {unit_info.get("specifications").get("secondary_bonus")}', width=200),
                                     Text(f''),
                                     Text(f'Щит: {unit_info.get("specifications").get("shield")}'),
                                     Text(f'Здоровье: {unit_info.get("specifications").get("health")}'),
@@ -179,7 +179,6 @@ def App(page: flet.Page):
                             )
                         ],
                         alignment=MainAxisAlignment.CENTER
-
                     ),
                     Row(
                         [
@@ -198,6 +197,8 @@ def App(page: flet.Page):
                 alignment=MainAxisAlignment.CENTER
             )
         )
+
+        page.update()
 
     mainMenu("e")
 

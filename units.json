@@ -1,132 +1,3442 @@
 {
-  "fractions": {
-    "Византийская империя": {
-      "units": {
-        "Пехота": {
-          "Крестьяне": {
-            "image": "./images/Византийская империя/Крестьяне.png",
-            "specifications": {
-              "primary": {
-                "weaponName": "Вилы (ближний бой)",
-                "weaponAttributes": "",
-                "attack": 4,
-                "bonus": 0
-              },
-              "secondary": {
-                "weaponName": "",
-                "weaponAttributes": "",
-                "attack": 0,
-                "bonus": 0
-              },
-              "totalDefence": 3,
-              "arm": 0,
-              "defSkill": 3,
-              "shield":	0,
-              "health":	1
-            },
-            "description": ""
-          },
-          "Городское ополчение": {
-            "image": "./images/Византийская империя/ГородскоеОполчение.png",
-            "specifications": {
-              "primary": {
-                "weaponName": "Легкое копье (ближний бой)",
-                "weaponAttributes": "Урон по кавалерии +4",
-                "attack": 5,
-                "bonus": 2
-              },
-              "secondary": {
-                "weaponName": "",
-                "weaponAttributes": "",
-                "attack": 0,
-                "bonus": 0
-              },
-              "totalDefence": 7,
-              "arm": 0,
-              "defSkill": 1,
-              "shield":	6,
-              "health":	1
-            },
-            "description": ""
-          }
+  "Византийская империя": {
+    "Пехота": {
+      "Archer Militia": {
+        "image": "https://wiki.totalwar.com/w/Archer_Militia_(SE)_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"3",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
         },
-        "Кавалерия": {
-          "Кавалерия ополчения": {
-            "image": "./images/Византийская империя/КавалерияОполчение.png",
-            "specifications": {
-              "primary": {
-                "weaponName": "Кавалерийское копье (ближний бой)",
-                "weaponAttributes": "",
-                "attack": 7,
-                "bonus": 3
-              },
-              "secondary": {
-                "weaponName": "Кавалерийское копье (ближний бой)",
-                "weaponAttributes": "",
-                "attack": 7,
-                "bonus": 2
-              },
-              "totalDefence": 10,
-              "arm": 4,
-              "defSkill": 3,
-              "shield":	3,
-              "health":	1
-            },
-            "description": ""
-          }
-        }
+        "description": "A type of trained civilian guard called,'tzakones' responsible for protecting settlements, roads and forts.\n"
+      },
+      "Byzantine Guard Archers": {
+        "image": "https://wiki.totalwar.com/w/Byzantine_Guard_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Composite bow (Missile)",
+          "primary_attack":"11",
+          "primary_bonus":"3",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"16",
+          "arm":"5",
+          "defSkill":"8",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Byzantium Guard Archers are well trained missile troops equipped with composite bow, sword, mail and a shield.\n"
+      },
+      "Peasant Archers": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A peasant archer is armed with a small bow, and a knife. Unreliable, and only moderately effective as archers.\n"
+      },
+      "Trebizond Archers": {
+        "image": "https://wiki.totalwar.com/w/Trebizond_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Composite bow (Missile)",
+          "primary_attack":"8",
+          "primary_bonus":"2",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"7",
+          "arm":"0",
+          "defSkill":"4",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Hailing from the edge of the Black Sea, these well trained archers wear padded armour and use a composite bow.\n"
       }
     },
-    "Россия": {
-      "units": {
-        "Пехота": {
-          "Крестьяне": {
-            "image": "./images/Византийская империя/Крестьяне.png",
-            "specifications": {
-              "primary": {
-                "weaponName": "Вилы (ближний бой)",
-                "weaponAttributes": "",
-                "attack": 4,
-                "bonus": 0
-              },
-              "secondary": {
-                "weaponName": "",
-                "weaponAttributes": "",
-                "attack": 0,
-                "bonus": 0
-              },
-              "totalDefence": 3,
-              "arm": 0,
-              "defSkill": 3,
-              "shield":	0,
-              "health":	1
-            },
-            "description": ""
-          },
-          "Городское ополчение": {
-            "image": "./images/Византийская империя/ГородскоеОполчение.png",
-            "specifications": {
-              "primary": {
-                "weaponName": "Легкое копье (ближний бой)",
-                "weaponAttributes": "Урон по кавалерии +4",
-                "attack": 5,
-                "bonus": 2
-              },
-              "secondary": {
-                "weaponName": "",
-                "weaponAttributes": "",
-                "attack": 0,
-                "bonus": 0
-              },
-              "totalDefence": 7,
-              "arm": 0,
-              "defSkill": 1,
-              "shield":	6,
-              "health":	1
-            },
-            "description": ""
-          }
-        }
+    "Кавалерия": {
+      "Byzantine Cavalry": {
+        "image": "https://wiki.totalwar.com/w/Byzantine_Cavalry_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry composite bow (Missile)",
+          "primary_attack":"7",
+          "primary_bonus":"2",
+          "Range:":"120",
+          "Ammunition:":"25",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"12",
+          "arm":"4",
+          "defSkill":"5",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Versatile lightly armoured medium cavalry, equally able shooting their bows, or fighting with their swords.\n"
+      },
+      "Skythikon": {
+        "image": "https://wiki.totalwar.com/w/Skythikon_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry composite bow (Missile)",
+          "primary_attack":"6",
+          "primary_bonus":"2",
+          "Range:":"120",
+          "Ammunition:":"25",
+          "secondary_weaponName":"Cavalry weak sword (Melee)",
+          "totalDefence":"3",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Asiatic Nomads, who serve the Byzantine Empire as horse archers, wearing little armour and armed with a composite bow.\n"
+      },
+      "Vardariotai": {
+        "image": "https://wiki.totalwar.com/w/Vardariotai_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry composite bow (Missile)",
+          "primary_attack":"10",
+          "primary_bonus":"4",
+          "Range:":"120",
+          "Ammunition:":"25",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"17",
+          "arm":"5",
+          "defSkill":"9",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Disciplined and highly trained, the Vardariotai wear light armour and fire a composite bow from horseback.\n"
+      }
+    },
+    "Артиллерия": {
+      "Ballista": {
+        "image": "https://wiki.totalwar.com/w/Ballista_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ballista (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"180",
+          "Ammunition:":"50",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Resembling a giant crossbow, this powerful weapon can fling a javelin to a great range, skewering men with ease.\n"
+      },
+      "Bombard": {
+        "image": "https://wiki.totalwar.com/w/Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"325",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Primitive siege-gun forged of bronze or iron, can shoot solid stone or flaming shot. Inaccurate versus units.\n"
+      },
+      "Catapult": {
+        "image": "https://wiki.totalwar.com/w/Catapult_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Catapult (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"200",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Older style rock-flinging wooden artillery piece. Can throw flaming and normal shots.\n"
+      },
+      "Trebuchet": {
+        "image": "https://wiki.totalwar.com/w/Trebuchet_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Trebuchet (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"215",
+          "Ammunition:":"3",
+          "Tertiary weapon:":"Trebuchet - cow carcass (Siege)",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Giant rock flinging artillery piece. Capable of flaming and normal shot. Also able to fling diseased cows!\n"
+      }
+    },
+    "Флот": {
+      "Carrack": {
+        "image": "https://wiki.totalwar.com/w/Carrack_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"30",
+          "primary_bonus":"0",
+          "totalDefence":"30",
+          "arm":"0",
+          "defSkill":"30",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Dromon": {
+        "image": "https://wiki.totalwar.com/w/Dromon_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"7",
+          "primary_bonus":"0",
+          "totalDefence":"9",
+          "arm":"0",
+          "defSkill":"9",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Fire Ship": {
+        "image": "https://wiki.totalwar.com/w/Fire_Ship_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"16",
+          "primary_bonus":"0",
+          "totalDefence":"10",
+          "arm":"0",
+          "defSkill":"10",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Lanternas": {
+        "image": "https://wiki.totalwar.com/w/Lanternas_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"18",
+          "primary_bonus":"0",
+          "totalDefence":"18",
+          "arm":"0",
+          "defSkill":"18",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      }
+    }
+  },
+  "Дания": {
+    "Пехота": {
+      "Arquebusiers": {
+        "image": "https://wiki.totalwar.com/w/Arquebusiers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Arquebus (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"3",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Fired at close range, this noisy, smokey and lethal weapon causes morale damage as well as physical hurt.\n"
+      },
+      "Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"8",
+          "arm":"5",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Slow to reload, but a potent and easy to use missile weapon firing powerful bolts.\n"
+      },
+      "Crossbow Militia": {
+        "image": "https://wiki.totalwar.com/w/Crossbow_Militia_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Crossbow Militia are peasant crossbowmen called up to defend settlements. Very poorly armoured.\n"
+      },
+      "Hand Gunners": {
+        "image": "https://wiki.totalwar.com/w/Hand_Gunners_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Hand gun (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"11",
+          "primary_bonus":"2",
+          "Range:":"55",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"13",
+          "arm":"7",
+          "defSkill":"6",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Earliest hand-held firearm unit. Causes more fear than actual damage. These soldiers need to be capable in close combat due to the short range of their weapons.\n"
+      },
+      "Norse Archers": {
+        "image": "https://wiki.totalwar.com/w/Norse_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"11",
+          "primary_bonus":"2",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"16",
+          "arm":"4",
+          "defSkill":"6",
+          "shield":"6",
+          "health":"1"
+        },
+        "description": "Armed with a bow, a sword, shield and light armour, Norse archers are weak at shooting, but can stand their ground in melee.\n"
+      },
+      "Peasant Archers": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A peasant archer is armed with a small bow, and a knife. Unreliable, and only moderately effective as archers.\n"
+      }
+    },
+    "Кавалерия": {
+      "Mounted Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Mounted_Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"7",
+          "primary_bonus":"2",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"10",
+          "arm":"5",
+          "defSkill":"5",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Using smaller crossbows than the infantry, these units use their mobility to stay out of trouble while they reload.\n"
+      }
+    },
+    "Артиллерия": {
+      "Ballista": {
+        "image": "https://wiki.totalwar.com/w/Ballista_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ballista (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"180",
+          "Ammunition:":"50",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Resembling a giant crossbow, this powerful weapon can fling a javelin to a great range, skewering men with ease.\n"
+      },
+      "Bombard": {
+        "image": "https://wiki.totalwar.com/w/Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"325",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Primitive siege-gun forged of bronze or iron, can shoot solid stone or flaming shot. Inaccurate versus units.\n"
+      },
+      "Cannon": {
+        "image": "https://wiki.totalwar.com/w/Cannon_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Cannon (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"380",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The typical 'cannon'is powerful and good against both units and defences. Capable of firing solid and explosive shots.\n"
+      },
+      "Catapult": {
+        "image": "https://wiki.totalwar.com/w/Catapult_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Catapult (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"200",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Older style rock-flinging wooden artillery piece. Can throw flaming and normal shots.\n"
+      },
+      "Ribault": {
+        "image": "https://wiki.totalwar.com/w/Ribault_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ribault (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"150",
+          "Ammunition:":"108",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A small multi-barrel wagon mounted cannon. A good defensive tool able to fire in a nine-barrel barrage.\n"
+      },
+      "Serpentine": {
+        "image": "https://wiki.totalwar.com/w/Serpentine_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Serpentine (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"450",
+          "Ammunition:":"36",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Light cannon designed for use against troops rather than walls.\n"
+      },
+      "Trebuchet": {
+        "image": "https://wiki.totalwar.com/w/Trebuchet_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Trebuchet (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"215",
+          "Ammunition:":"3",
+          "Tertiary weapon:":"Trebuchet - cow carcass (Siege)",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Giant rock flinging artillery piece. Capable of flaming and normal shot. Also able to fling diseased cows!\n"
+      }
+    },
+    "Флот": {
+      "Carrack": {
+        "image": "https://wiki.totalwar.com/w/Carrack_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"30",
+          "primary_bonus":"0",
+          "totalDefence":"30",
+          "arm":"0",
+          "defSkill":"30",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Dragon Boat": {
+        "image": "https://wiki.totalwar.com/w/Dragon_Boat_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"12",
+          "primary_bonus":"0",
+          "totalDefence":"10",
+          "arm":"0",
+          "defSkill":"10",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Gun Holk": {
+        "image": "https://wiki.totalwar.com/w/Gun_Holk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"16",
+          "primary_bonus":"0",
+          "totalDefence":"16",
+          "arm":"0",
+          "defSkill":"16",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Longboat": {
+        "image": "https://wiki.totalwar.com/w/Longboat_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"8",
+          "primary_bonus":"0",
+          "totalDefence":"5",
+          "arm":"0",
+          "defSkill":"5",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      }
+    }
+  },
+  "Египет": {
+    "Пехота": {
+      "Archer Militia": {
+        "image": "https://wiki.totalwar.com/w/Archer_Militia_(ME)_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Armed with a bow and knife these troops are made up of locals who have been organised to defend their town.\n"
+      },
+      "Desert Archers": {
+        "image": "https://wiki.totalwar.com/w/Desert_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Composite bow (Missile)",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"6",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Hardy men from the desert, adept with the bow, but lacking the equipment for close combat.\n"
+      },
+      "Kurdish Javelinmen": {
+        "image": "https://wiki.totalwar.com/w/Kurdish_Javelinmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Javelin (Thrown)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"9",
+          "primary_bonus":"1",
+          "Range:":"55",
+          "Ammunition:":"8",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"11",
+          "arm":"0",
+          "defSkill":"5",
+          "shield":"6",
+          "health":"1"
+        },
+        "description": "Hardy troops who soften the enemy with their javelins, then finish them off with their swords.\n"
+      },
+      "Naffatun": {
+        "image": "https://wiki.totalwar.com/w/Naffatun_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Naphtha bomb (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"13",
+          "primary_bonus":"3",
+          "Range:":"40",
+          "Ammunition:":"5",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"12",
+          "arm":"5",
+          "defSkill":"7",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "These men throw deadly pots of flaming Naphtha that can seep through any armour.\n"
+      },
+      "Nubian Archers": {
+        "image": "https://wiki.totalwar.com/w/Nubian_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Composite bow (Missile)",
+          "primary_attack":"7",
+          "primary_bonus":"2",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Mace (Melee)",
+          "primary_weaponAttributes":"Armour piercing",
+          "totalDefence":"4",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Coming from all over Africa these light troops are equipped with a bow and hand weapon.\n"
+      },
+      "Peasant Archers": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Archers_(ME)_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Accustomed to using their bow for hunting, these peasant archers are armed with a small bow and knife.\n"
+      },
+      "Sudanese Gunners": {
+        "image": "https://wiki.totalwar.com/w/Sudanese_Gunners_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Arquebus (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"9",
+          "primary_bonus":"3",
+          "Range:":"120",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Short sword (Melee)",
+          "totalDefence":"7",
+          "arm":"0",
+          "defSkill":"7",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Hailing from all over Africa these well trained troops are armed with an arquebus.\n"
+      }
+    },
+    "Кавалерия": {
+      "Desert Cavalry": {
+        "image": "https://wiki.totalwar.com/w/Desert_Cavalry_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry javelin (Thrown)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"8",
+          "primary_bonus":"3",
+          "Range:":"55",
+          "Ammunition:":"8",
+          "secondary_weaponName":"Cavalry weak sword (Melee)",
+          "totalDefence":"8",
+          "arm":"0",
+          "defSkill":"5",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Fast skirmishers with javelins, best used to harass enemy flanks and fend off archers.\n"
+      },
+      "Mamluk Archers": {
+        "image": "https://wiki.totalwar.com/w/Mamluk_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry composite bow (Missile)",
+          "primary_attack":"8",
+          "primary_bonus":"4",
+          "Range:":"120",
+          "Ammunition:":"25",
+          "secondary_weaponName":"Cavalry mace (Melee)",
+          "primary_weaponAttributes":"Armour piercing",
+          "totalDefence":"15",
+          "arm":"5",
+          "defSkill":"7",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Bought as slaves, and trained from boyhood, these formidable soldiers excel at archery, but can also hold their own in melee.\n"
+      }
+    },
+    "Артиллерия": {
+      "Ballista": {
+        "image": "https://wiki.totalwar.com/w/Ballista_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ballista (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"180",
+          "Ammunition:":"50",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Resembling a giant crossbow, this powerful weapon can fling a javelin to a great range, skewering men with ease.\n"
+      },
+      "Bombard": {
+        "image": "https://wiki.totalwar.com/w/Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"325",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Primitive siege-gun forged of bronze or iron, can shoot solid stone or flaming shot. Inaccurate versus units.\n"
+      },
+      "Cannon": {
+        "image": "https://wiki.totalwar.com/w/Cannon_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Cannon (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"380",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The typical cannon'is powerful and good against both units and defences. Capable of firing solid and explosive shots.\n"
+      },
+      "Catapult": {
+        "image": "https://wiki.totalwar.com/w/Catapult_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Catapult (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"200",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Older style rock-flinging wooden artillery piece. Can throw flaming and normal shots.\n"
+      },
+      "Grand Bombard": {
+        "image": "https://wiki.totalwar.com/w/Grand_Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Grand bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"375",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The Grand Bombard has increased range, damage and accuracy compared to the bombard.\n"
+      },
+      "Trebuchet": {
+        "image": "https://wiki.totalwar.com/w/Trebuchet_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Trebuchet (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"215",
+          "Ammunition:":"3",
+          "Tertiary weapon:":"Trebuchet - cow carcass (Siege)",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Giant rock flinging artillery piece. Capable of flaming and normal shot. Also able to fling diseased cows!\n"
+      }
+    },
+    "Флот": {
+      "Baghlah": {
+        "image": "https://wiki.totalwar.com/w/Baghlah_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"18",
+          "primary_bonus":"0",
+          "totalDefence":"22",
+          "arm":"0",
+          "defSkill":"22",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Dhow": {
+        "image": "https://wiki.totalwar.com/w/Dhow_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"5",
+          "primary_bonus":"0",
+          "totalDefence":"6",
+          "arm":"0",
+          "defSkill":"6",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Lanternas": {
+        "image": "https://wiki.totalwar.com/w/Lanternas_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"18",
+          "primary_bonus":"0",
+          "totalDefence":"18",
+          "arm":"0",
+          "defSkill":"18",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "War Galley": {
+        "image": "https://wiki.totalwar.com/w/War_Galley_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"12",
+          "primary_bonus":"0",
+          "totalDefence":"12",
+          "arm":"0",
+          "defSkill":"12",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      }
+    }
+  },
+  "Англия": {
+    "Пехота": {
+      "Archer Militia": {
+        "image": "https://wiki.totalwar.com/w/Archer_Militia_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Archer Militia are peasant archers called up to defend settlements.\n"
+      },
+      "Arquebusiers": {
+        "image": "https://wiki.totalwar.com/w/Arquebusiers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Arquebus (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"3",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Fired at close range, this noisy, smokey and lethal weapon causes morale damage as well as physical hurt.\n"
+      },
+      "Longbowmen": {
+        "image": "https://wiki.totalwar.com/w/Longbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Longbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"7",
+          "primary_bonus":"2",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Mace (Melee)",
+          "totalDefence":"4",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Armed with the armour piercing longbow, Longbowmen can also plant stakes in front of them to keep cavalry at bay.\n"
+      },
+      "Peasant Archers": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A peasant archer is armed with a small bow, and a knife. Unreliable, and only moderately effective as archers.\n"
+      },
+      "Retinue Longbowmen": {
+        "image": "https://wiki.totalwar.com/w/Retinue_Longbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Longbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"11",
+          "primary_bonus":"2",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"14",
+          "arm":"5",
+          "defSkill":"6",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Well armoured professional soldiers. Confident and deadly.\n"
+      },
+      "Sherwood Archers": {
+        "image": "https://wiki.totalwar.com/w/Sherwood_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Longbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"16",
+          "primary_bonus":"3",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"18",
+          "arm":"0",
+          "defSkill":"9",
+          "shield":"0",
+          "health":"2"
+        },
+        "description": "Wielding a longbow made of yew, and able to hide in any terrain these men are excellent at ambushes, and are outstanding marksmen.\n"
+      },
+      "Yeoman Archers": {
+        "image": "https://wiki.totalwar.com/w/Yeoman_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Longbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"9",
+          "primary_bonus":"3",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Mace (Melee)",
+          "totalDefence":"5",
+          "arm":"0",
+          "defSkill":"2",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "English freeholders are required by the King to be trained in warfare, Yeoman archers are highly skilled ranged troops. \n"
+      }
+    },
+    "Кавалерия": {
+      "Demi Lancers": {
+        "image": "https://wiki.totalwar.com/w/Demi_Lancers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry heavy lance (Melee)",
+          "primary_attack":"14",
+          "primary_bonus":"4",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"12",
+          "arm":"7",
+          "defSkill":"5",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Armed with a lance but with less armour these units are mobile and deadly.\n"
+      },
+      "English Knights": {
+        "image": "https://wiki.totalwar.com/w/English_Knights_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry heavy lance (Melee)",
+          "primary_attack":"11",
+          "primary_bonus":"4",
+          "secondary_weaponName":"Cavalry axe (Melee)",
+          "primary_weaponAttributes":"Armour piercing",
+          "totalDefence":"16",
+          "arm":"8",
+          "defSkill":"4",
+          "shield":"4",
+          "health":"1"
+        },
+        "description": "Elite warriors clad in steel plate armour, these men pack an effective charge, while being hard to kill.\n"
+      },
+      "Feudal Knights": {
+        "image": "https://wiki.totalwar.com/w/Feudal_Knights_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry light lance (Melee)",
+          "primary_attack":"11",
+          "primary_bonus":"4",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"16",
+          "arm":"7",
+          "defSkill":"5",
+          "shield":"4",
+          "health":"1"
+        },
+        "description": "Protected by heavy armour and armed with a lance, these elite warriors crush and ride down their opponents.\n"
+      },
+      "General's Bodyguard (Early)": {
+        "image": "https://wiki.totalwar.com/w/General%27s_Bodyguard_(Early_NE)_(M2TW_unit)",
+        "specifications": {
+          "primary_weaponName":"Cavalry heavy lance (Melee)",
+          "primary_attack":"14",
+          "primary_bonus":"4",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"32",
+          "arm":"7",
+          "defSkill":"5",
+          "shield":"4",
+          "health":"2"
+        },
+        "description": "Well armed and equipped these elite troops have the task of guarding and fighting alongside the army's general.\n"
+      },
+      "General's Bodyguard (Late)": {
+        "image": "https://wiki.totalwar.com/w/General%27s_Bodyguard_(Late)_(M2TW_unit)",
+        "specifications": {
+          "primary_weaponName":"Cavalry heavy lance (Melee)",
+          "primary_attack":"14",
+          "primary_bonus":"4",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"34",
+          "arm":"9",
+          "defSkill":"5",
+          "shield":"3",
+          "health":"2"
+        },
+        "description": "Elite knights hand picked to protect the general.\n"
+      },
+      "Knights Hospitaller": {
+        "image": "https://wiki.totalwar.com/w/Knights_Hospitaller_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry heavy lance (Melee)",
+          "primary_attack":"14",
+          "primary_bonus":"4",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"16",
+          "arm":"7",
+          "defSkill":"5",
+          "shield":"4",
+          "health":"1"
+        },
+        "description": "Well trained and disciplined these knights are amongst the deadliest heavy cavalry in all Christendom.\n"
+      },
+      "Knights Templar": {
+        "image": "https://wiki.totalwar.com/w/Knights_Templar_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry heavy lance (Melee)",
+          "primary_attack":"14",
+          "primary_bonus":"4",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"16",
+          "arm":"7",
+          "defSkill":"5",
+          "shield":"4",
+          "health":"1"
+        },
+        "description": "Elite and some say reckless knights formed to protect Christian pilgrims in the Holy Lands.\n"
+      },
+      "Mailed Knights": {
+        "image": "https://wiki.totalwar.com/w/Mailed_Knights_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry light lance (Melee)",
+          "primary_attack":"11",
+          "primary_bonus":"4",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"14",
+          "arm":"5",
+          "defSkill":"5",
+          "shield":"4",
+          "health":"1"
+        },
+        "description": "Encased in mail and equipped with lances and swords these early knights are formidable fighting machines.\n"
+      },
+      "Merchant Cavalry Militia": {
+        "image": "https://wiki.totalwar.com/w/Merchant_Cavalry_Militia_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry weak sword (Melee)",
+          "primary_attack":"6",
+          "primary_bonus":"2",
+          "totalDefence":"14",
+          "arm":"7",
+          "defSkill":"3",
+          "shield":"4",
+          "health":"1"
+        },
+        "description": "Poorly trained, but well equipped cavalry who fight with a sword. \n"
+      }
+    },
+    "Артиллерия": {
+      "Ballista": {
+        "image": "https://wiki.totalwar.com/w/Ballista_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ballista (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"180",
+          "Ammunition:":"50",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Resembling a giant crossbow, this powerful weapon can fling a javelin to a great range, skewering men with ease.\n"
+      },
+      "Bombard": {
+        "image": "https://wiki.totalwar.com/w/Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"325",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Primitive siege-gun forged of bronze or iron, can shoot solid stone or flaming shot. Inaccurate versus units.\n"
+      },
+      "Catapult": {
+        "image": "https://wiki.totalwar.com/w/Catapult_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Catapult (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"200",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Older style rock-flinging wooden artillery piece. Can throw flaming and normal shots.\n"
+      },
+      "Culverin": {
+        "image": "https://wiki.totalwar.com/w/Culverin_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Culverin (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"425",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Able to fire solid or exploding shots, the culverin is devastating against enemy walls and lethal against enemy troops!\n"
+      },
+      "Mortar": {
+        "image": "https://wiki.totalwar.com/w/Mortar_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Mortar (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"300",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A siege weapon capable of firing over walls and plunging shots down on enemies hiding behind said walls.\n"
+      },
+      "Ribault": {
+        "image": "https://wiki.totalwar.com/w/Ribault_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ribault (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"150",
+          "Ammunition:":"108",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A small multi-barrel wagon mounted cannon. A good defensive tool able to fire in a nine-barrel barrage.\n"
+      },
+      "Trebuchet": {
+        "image": "https://wiki.totalwar.com/w/Trebuchet_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Trebuchet (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"215",
+          "Ammunition:":"3",
+          "Tertiary weapon:":"Trebuchet - cow carcass (Siege)",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Giant rock flinging artillery piece. Capable of flaming and normal shot. Also able to fling diseased cows!\n"
+      }
+    },
+    "Флот": {
+      "Carrack": {
+        "image": "https://wiki.totalwar.com/w/Carrack_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"30",
+          "primary_bonus":"0",
+          "totalDefence":"30",
+          "arm":"0",
+          "defSkill":"30",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Cog": {
+        "image": "https://wiki.totalwar.com/w/Cog_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"5",
+          "primary_bonus":"0",
+          "totalDefence":"8",
+          "arm":"0",
+          "defSkill":"8",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Gun Holk": {
+        "image": "https://wiki.totalwar.com/w/Gun_Holk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"16",
+          "primary_bonus":"0",
+          "totalDefence":"16",
+          "arm":"0",
+          "defSkill":"16",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Holk": {
+        "image": "https://wiki.totalwar.com/w/Holk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"10",
+          "primary_bonus":"0",
+          "totalDefence":"12",
+          "arm":"0",
+          "defSkill":"12",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      }
+    }
+  },
+  "Франция": {
+    "Пехота": {
+      "Arquebusiers": {
+        "image": "https://wiki.totalwar.com/w/Arquebusiers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Arquebus (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"3",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Fired at close range, this noisy, smokey and lethal weapon causes morale damage as well as physical hurt.\n"
+      },
+      "Aventurier": {
+        "image": "https://wiki.totalwar.com/w/Aventurier_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"11",
+          "primary_bonus":"3",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"15",
+          "arm":"7",
+          "defSkill":"8",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Well skilled troops armed with a crossbow and sword and armoured in plate.\n"
+      },
+      "Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"8",
+          "arm":"5",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Slow to reload, but a potent and easy to use missile weapon firing powerful bolts.\n"
+      },
+      "Crossbow Militia": {
+        "image": "https://wiki.totalwar.com/w/Crossbow_Militia_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Crossbow Militia are peasant crossbowmen called up to defend settlements. Very poorly armoured.\n"
+      },
+      "Peasant Archers": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A peasant archer is armed with a small bow, and a knife. Unreliable, and only moderately effective as archers.\n"
+      },
+      "Peasant Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Peasant crossbowmen are armed with a crossbow, knife and if lucky enough, some armour.\n"
+      },
+      "Scots Guard": {
+        "image": "https://wiki.totalwar.com/w/Scots_Guard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Longbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"17",
+          "arm":"8",
+          "defSkill":"9",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "These Scottish troops are elite armoured longbowmen, and form part of the French King's guard'n"
+      }
+    },
+    "Кавалерия": {
+      "French Mounted Archers": {
+        "image": "https://wiki.totalwar.com/w/French_Mounted_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry longbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"9",
+          "primary_bonus":"4",
+          "Range:":"120",
+          "Ammunition:":"25",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"14",
+          "arm":"6",
+          "defSkill":"8",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Professional soldiers equipped with longbows in the English style, and mounted on horses for mobility\n"
+      }
+    },
+    "Артиллерия": {
+      "Ballista": {
+        "image": "https://wiki.totalwar.com/w/Ballista_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ballista (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"180",
+          "Ammunition:":"50",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Resembling a giant crossbow, this powerful weapon can fling a javelin to a great range, skewering men with ease.\n"
+      },
+      "Basilisk": {
+        "image": "https://wiki.totalwar.com/w/Basilisk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Basilisk (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"450",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Very powerful cannon with great range, damage and accuracy. Punishing against defences and units. Can fire solid or explosive shots.\n"
+      },
+      "Bombard": {
+        "image": "https://wiki.totalwar.com/w/Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"325",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Primitive siege-gun forged of bronze or iron, can shoot solid stone or flaming shot. Inaccurate versus units.\n"
+      },
+      "Catapult": {
+        "image": "https://wiki.totalwar.com/w/Catapult_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Catapult (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"200",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Older style rock-flinging wooden artillery piece. Can throw flaming and normal shots.\n"
+      },
+      "Culverin": {
+        "image": "https://wiki.totalwar.com/w/Culverin_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Culverin (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"425",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Able to fire solid or exploding shots, the culverin is devastating against enemy walls and lethal against enemy troops!\n"
+      },
+      "Grand Bombard": {
+        "image": "https://wiki.totalwar.com/w/Grand_Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Grand bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"375",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The Grand Bombard has increased range, damage and accuracy compared to the bombard.\n"
+      },
+      "Serpentine": {
+        "image": "https://wiki.totalwar.com/w/Serpentine_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Serpentine (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"450",
+          "Ammunition:":"36",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Light cannon designed for use against troops rather than walls.\n"
+      },
+      "Trebuchet": {
+        "image": "https://wiki.totalwar.com/w/Trebuchet_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Trebuchet (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"215",
+          "Ammunition:":"3",
+          "Tertiary weapon:":"Trebuchet - cow carcass (Siege)",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Giant rock flinging artillery piece. Capable of flaming and normal shot. Also able to fling diseased cows!\n"
+      }
+    },
+    "Флот": {
+      "Carrack": {
+        "image": "https://wiki.totalwar.com/w/Carrack_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"30",
+          "primary_bonus":"0",
+          "totalDefence":"30",
+          "arm":"0",
+          "defSkill":"30",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Cog": {
+        "image": "https://wiki.totalwar.com/w/Cog_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"5",
+          "primary_bonus":"0",
+          "totalDefence":"8",
+          "arm":"0",
+          "defSkill":"8",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Gun Holk": {
+        "image": "https://wiki.totalwar.com/w/Gun_Holk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"16",
+          "primary_bonus":"0",
+          "totalDefence":"16",
+          "arm":"0",
+          "defSkill":"16",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Holk": {
+        "image": "https://wiki.totalwar.com/w/Holk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"10",
+          "primary_bonus":"0",
+          "totalDefence":"12",
+          "arm":"0",
+          "defSkill":"12",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      }
+    }
+  },
+  "Священная Римская империя": {
+    "Пехота": {
+      "Arquebusiers": {
+        "image": "https://wiki.totalwar.com/w/Arquebusiers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Arquebus (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"3",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Fired at close range, this noisy, smokey and lethal weapon causes morale damage as well as physical hurt.\n"
+      },
+      "Crossbow Militia": {
+        "image": "https://wiki.totalwar.com/w/Crossbow_Militia_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Crossbow Militia are peasant crossbowmen called up to defend settlements. Very poorly armoured.\n"
+      },
+      "Hand Gunners": {
+        "image": "https://wiki.totalwar.com/w/Hand_Gunners_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Hand gun (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"11",
+          "primary_bonus":"2",
+          "Range:":"55",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"13",
+          "arm":"7",
+          "defSkill":"6",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Earliest hand-held firearm unit. Causes more fear than actual damage. These soldiers need to be capable in close combat due to the short range of their weapons.\n"
+      },
+      "Pavise Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Pavise_Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"14",
+          "arm":"5",
+          "defSkill":"3",
+          "shield":"6",
+          "health":"1"
+        },
+        "description": "These troops are armed with a large shield to protect them during the slow process of reloading their crossbow.\n"
+      },
+      "Peasant Archers": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A peasant archer is armed with a small bow, and a knife. Unreliable, and only moderately effective as archers.\n"
+      },
+      "Peasant Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Peasant crossbowmen are armed with a crossbow, knife and if lucky enough, some armour.\n"
+      }
+    },
+    "Кавалерия": {
+      "Mounted Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Mounted_Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"7",
+          "primary_bonus":"2",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"10",
+          "arm":"5",
+          "defSkill":"5",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Using smaller crossbows than the infantry, these units use their mobility to stay out of trouble while they reload.\n"
+      },
+      "Reiters": {
+        "image": "https://wiki.totalwar.com/w/Reiters_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry pistol (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"11",
+          "primary_bonus":"5",
+          "Range:":"45",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Cavalry spear (Melee)",
+          "totalDefence":"13",
+          "arm":"7",
+          "defSkill":"6",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Effective gunpowder units, Reiters are armed with a pistol and spear, and protected by plate armour.\n"
+      }
+    },
+    "Артиллерия": {
+      "Ballista": {
+        "image": "https://wiki.totalwar.com/w/Ballista_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ballista (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"180",
+          "Ammunition:":"50",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Resembling a giant crossbow, this powerful weapon can fling a javelin to a great range, skewering men with ease.\n"
+      },
+      "Basilisk": {
+        "image": "https://wiki.totalwar.com/w/Basilisk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Basilisk (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"450",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Very powerful cannon with great range, damage and accuracy. Punishing against defences and units. Can fire solid or explosive shots.\n"
+      },
+      "Bombard": {
+        "image": "https://wiki.totalwar.com/w/Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"325",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Primitive siege-gun forged of bronze or iron, can shoot solid stone or flaming shot. Inaccurate versus units.\n"
+      },
+      "Cannon": {
+        "image": "https://wiki.totalwar.com/w/Cannon_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Cannon (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"380",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The typical 'cannon'is powerful and good against both units and defences. Capable of firing solid and explosive shots.\n"
+      },
+      "Catapult": {
+        "image": "https://wiki.totalwar.com/w/Catapult_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Catapult (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"200",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Older style rock-flinging wooden artillery piece. Can throw flaming and normal shots.\n"
+      },
+      "Grand Bombard": {
+        "image": "https://wiki.totalwar.com/w/Grand_Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Grand bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"375",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The Grand Bombard has increased range, damage and accuracy compared to the bombard.\n"
+      },
+      "Serpentine": {
+        "image": "https://wiki.totalwar.com/w/Serpentine_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Serpentine (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"450",
+          "Ammunition:":"36",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Light cannon designed for use against troops rather than walls.\n"
+      },
+      "Trebuchet": {
+        "image": "https://wiki.totalwar.com/w/Trebuchet_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Trebuchet (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"215",
+          "Ammunition:":"3",
+          "Tertiary weapon:":"Trebuchet - cow carcass (Siege)",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Giant rock flinging artillery piece. Capable of flaming and normal shot. Also able to fling diseased cows!\n"
+      }
+    },
+    "Флот": {
+      "Carrack": {
+        "image": "https://wiki.totalwar.com/w/Carrack_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"30",
+          "primary_bonus":"0",
+          "totalDefence":"30",
+          "arm":"0",
+          "defSkill":"30",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Cog": {
+        "image": "https://wiki.totalwar.com/w/Cog_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"5",
+          "primary_bonus":"0",
+          "totalDefence":"8",
+          "arm":"0",
+          "defSkill":"8",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Gun Holk": {
+        "image": "https://wiki.totalwar.com/w/Gun_Holk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"16",
+          "primary_bonus":"0",
+          "totalDefence":"16",
+          "arm":"0",
+          "defSkill":"16",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Holk": {
+        "image": "https://wiki.totalwar.com/w/Holk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"10",
+          "primary_bonus":"0",
+          "totalDefence":"12",
+          "arm":"0",
+          "defSkill":"12",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      }
+    }
+  },
+  "Венгрия": {
+    "Пехота": {
+      "Arquebusiers": {
+        "image": "https://wiki.totalwar.com/w/Arquebusiers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Arquebus (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"3",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Fired at close range, this noisy, smokey and lethal weapon causes morale damage as well as physical hurt.\n"
+      },
+      "Bosnian Archers": {
+        "image": "https://wiki.totalwar.com/w/Bosnian_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"3",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"9",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"6",
+          "health":"1"
+        },
+        "description": "Bosnian archers are lightly armoured, well trained archers with the added protection of a winged shield.\n"
+      },
+      "Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"8",
+          "arm":"5",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Slow to reload, but a potent and easy to use missile weapon firing powerful bolts.\n"
+      },
+      "Pavise Crossbow Militia": {
+        "image": "https://wiki.totalwar.com/w/Pavise_Crossbow_Militia_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Steel crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"14",
+          "arm":"5",
+          "defSkill":"3",
+          "shield":"6",
+          "health":"1"
+        },
+        "description": "Italian crossbow militia, armoured with mail and a pavise.\n"
+      },
+      "Peasant Archers": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A peasant archer is armed with a small bow, and a knife. Unreliable, and only moderately effective as archers.\n"
+      }
+    },
+    "Кавалерия": {
+      "Hungarian Nobles": {
+        "image": "https://wiki.totalwar.com/w/Hungarian_Nobles_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry composite bow (Missile)",
+          "primary_attack":"9",
+          "primary_bonus":"4",
+          "Range:":"120",
+          "Ammunition:":"25",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"16",
+          "arm":"5",
+          "defSkill":"8",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Well equipped with light armour and composite bows, these warriors are good horse archers who are also capable in close combat.\n"
+      },
+      "Magyar Cavalry": {
+        "image": "https://wiki.totalwar.com/w/Magyar_Cavalry_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry composite bow (Missile)",
+          "primary_attack":"6",
+          "primary_bonus":"2",
+          "Range:":"120",
+          "Ammunition:":"25",
+          "secondary_weaponName":"Cavalry weak sword (Melee)",
+          "totalDefence":"7",
+          "arm":"4",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "These natural horsemen are armed with a composite bow and wear light armour.\n"
+      }
+    },
+    "Артиллерия": {
+      "Ballista": {
+        "image": "https://wiki.totalwar.com/w/Ballista_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ballista (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"180",
+          "Ammunition:":"50",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Resembling a giant crossbow, this powerful weapon can fling a javelin to a great range, skewering men with ease.\n"
+      },
+      "Basilisk": {
+        "image": "https://wiki.totalwar.com/w/Basilisk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Basilisk (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"450",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Very powerful cannon with great range, damage and accuracy. Punishing against defences and units. Can fire solid or explosive shots.\n"
+      },
+      "Bombard": {
+        "image": "https://wiki.totalwar.com/w/Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"325",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Primitive siege-gun forged of bronze or iron, can shoot solid stone or flaming shot. Inaccurate versus units.\n"
+      },
+      "Catapult": {
+        "image": "https://wiki.totalwar.com/w/Catapult_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Catapult (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"200",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Older style rock-flinging wooden artillery piece. Can throw flaming and normal shots.\n"
+      },
+      "Ribault": {
+        "image": "https://wiki.totalwar.com/w/Ribault_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ribault (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"150",
+          "Ammunition:":"108",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A small multi-barrel wagon mounted cannon. A good defensive tool able to fire in a nine-barrel barrage.\n"
+      },
+      "Serpentine": {
+        "image": "https://wiki.totalwar.com/w/Serpentine_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Serpentine (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"450",
+          "Ammunition:":"36",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Light cannon designed for use against troops rather than walls.\n"
+      },
+      "Trebuchet": {
+        "image": "https://wiki.totalwar.com/w/Trebuchet_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Trebuchet (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"215",
+          "Ammunition:":"3",
+          "Tertiary weapon:":"Trebuchet - cow carcass (Siege)",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Giant rock flinging artillery piece. Capable of flaming and normal shot. Also able to fling diseased cows!\n"
+      }
+    },
+    "Флот": {
+      "Carrack": {
+        "image": "https://wiki.totalwar.com/w/Carrack_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"30",
+          "primary_bonus":"0",
+          "totalDefence":"30",
+          "arm":"0",
+          "defSkill":"30",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Cog": {
+        "image": "https://wiki.totalwar.com/w/Cog_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"5",
+          "primary_bonus":"0",
+          "totalDefence":"8",
+          "arm":"0",
+          "defSkill":"8",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Lanternas": {
+        "image": "https://wiki.totalwar.com/w/Lanternas_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"18",
+          "primary_bonus":"0",
+          "totalDefence":"18",
+          "arm":"0",
+          "defSkill":"18",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "War Galley": {
+        "image": "https://wiki.totalwar.com/w/War_Galley_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"12",
+          "primary_bonus":"0",
+          "totalDefence":"12",
+          "arm":"0",
+          "defSkill":"12",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      }
+    }
+  },
+  "Милан": {
+    "Пехота": {
+      "Arquebusiers": {
+        "image": "https://wiki.totalwar.com/w/Arquebusiers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Arquebus (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"3",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Fired at close range, this noisy, smokey and lethal weapon causes morale damage as well as physical hurt.\n"
+      },
+      "Genoese Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Genoese_Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Steel crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"8",
+          "primary_bonus":"2",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"16",
+          "arm":"6",
+          "defSkill":"4",
+          "shield":"6",
+          "health":"1"
+        },
+        "description": "Superior Italian crossbow unit armoured with brigandine and a pavise.\n"
+      },
+      "Genoese Crossbow Militia": {
+        "image": "https://wiki.totalwar.com/w/Genoese_Crossbow_Militia_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Steel crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"15",
+          "arm":"6",
+          "defSkill":"3",
+          "shield":"6",
+          "health":"1"
+        },
+        "description": "Superior Italian crossbow garrison unit armoured with brigandine and a pavise.\n"
+      },
+      "Hand Gunners": {
+        "image": "https://wiki.totalwar.com/w/Hand_Gunners_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Hand gun (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"11",
+          "primary_bonus":"2",
+          "Range:":"55",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"13",
+          "arm":"7",
+          "defSkill":"6",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Earliest hand-held firearm unit. Causes more fear than actual damage. These soldiers need to be capable in close combat due to the short range of their weapons.\n"
+      },
+      "Musketeers": {
+        "image": "https://wiki.totalwar.com/w/Musketeers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Musket (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"180",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"3",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The musket is an improved form of firearm. Firing a heavy shot to a good range, it causes fear, and can pierce any armour.\n"
+      },
+      "Peasant Archers": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A peasant archer is armed with a small bow, and a knife. Unreliable, and only moderately effective as archers.\n"
+      },
+      "Peasant Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Peasant crossbowmen are armed with a crossbow, knife and if lucky enough, some armour.\n"
+      }
+    },
+    "Кавалерия": {
+      "Mounted Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Mounted_Crossbowmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"7",
+          "primary_bonus":"2",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"10",
+          "arm":"5",
+          "defSkill":"5",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Using smaller crossbows than the infantry, these units use their mobility to stay out of trouble while they reload.\n"
+      }
+    },
+    "Артиллерия": {
+      "Ballista": {
+        "image": "https://wiki.totalwar.com/w/Ballista_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ballista (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"180",
+          "Ammunition:":"50",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Resembling a giant crossbow, this powerful weapon can fling a javelin to a great range, skewering men with ease.\n"
+      },
+      "Bombard": {
+        "image": "https://wiki.totalwar.com/w/Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"325",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Primitive siege-gun forged of bronze or iron, can shoot solid stone or flaming shot. Inaccurate versus units.\n"
+      },
+      "Carroccio Standard": {
+        "image": "https://wiki.totalwar.com/w/Carroccio_Standard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Long spear (Melee)",
+          "primary_weaponAttributes":"Bonus vs. cavalry = 8",
+          "primary_attack":"12",
+          "primary_bonus":"4",
+          "totalDefence":"16",
+          "arm":"5",
+          "defSkill":"5",
+          "shield":"6",
+          "health":"1"
+        },
+        "description": "Wagon bearing standard to inspire the army, pushed by elite troops armed with spears and light armour.\n"
+      },
+      "Catapult": {
+        "image": "https://wiki.totalwar.com/w/Catapult_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Catapult (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"200",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Older style rock-flinging wooden artillery piece. Can throw flaming and normal shots.\n"
+      },
+      "Culverin": {
+        "image": "https://wiki.totalwar.com/w/Culverin_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Culverin (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"425",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Able to fire solid or exploding shots, the culverin is devastating against enemy walls and lethal against enemy troops!\n"
+      },
+      "Grand Bombard": {
+        "image": "https://wiki.totalwar.com/w/Grand_Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Grand bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"375",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The Grand Bombard has increased range, damage and accuracy compared to the bombard.\n"
+      },
+      "Monster Ribault": {
+        "image": "https://wiki.totalwar.com/w/Monster_Ribault_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"68",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Monster ribault (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"150",
+          "Ammunition:":"108",
+          "totalDefence":"9",
+          "arm":"4",
+          "defSkill":"5",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "36 cannon barrels mounted on a wagon frame. Deadly short-ranged defensive gun capable of laying down a tremendous barrage.\n"
+      },
+      "Ribault": {
+        "image": "https://wiki.totalwar.com/w/Ribault_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ribault (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"150",
+          "Ammunition:":"108",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A small multi-barrel wagon mounted cannon. A good defensive tool able to fire in a nine-barrel barrage.\n"
+      },
+      "Trebuchet": {
+        "image": "https://wiki.totalwar.com/w/Trebuchet_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Trebuchet (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"215",
+          "Ammunition:":"3",
+          "Tertiary weapon:":"Trebuchet - cow carcass (Siege)",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Giant rock flinging artillery piece. Capable of flaming and normal shot. Also able to fling diseased cows!\n"
+      }
+    },
+    "Флот": {
+      "Carrack": {
+        "image": "https://wiki.totalwar.com/w/Carrack_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"30",
+          "primary_bonus":"0",
+          "totalDefence":"30",
+          "arm":"0",
+          "defSkill":"30",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Galley": {
+        "image": "https://wiki.totalwar.com/w/Galley_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"26",
+          "primary_bonus":"0",
+          "totalDefence":"20",
+          "arm":"0",
+          "defSkill":"20",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Lanternas": {
+        "image": "https://wiki.totalwar.com/w/Lanternas_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"18",
+          "primary_bonus":"0",
+          "totalDefence":"18",
+          "arm":"0",
+          "defSkill":"18",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "War Galley": {
+        "image": "https://wiki.totalwar.com/w/War_Galley_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"12",
+          "primary_bonus":"0",
+          "totalDefence":"12",
+          "arm":"0",
+          "defSkill":"12",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      }
+    }
+  },
+  "Мавров": {
+    "Пехота": {
+      "Crossbow Militia": {
+        "image": "https://wiki.totalwar.com/w/Crossbow_Militia_(ME)_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"8",
+          "arm":"5",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Local militia armed with crossbows and some armour, good for ranged combat, but will melt away in melee.\n"
+      },
+      "Desert Archers": {
+        "image": "https://wiki.totalwar.com/w/Desert_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Composite bow (Missile)",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"6",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Hardy men from the desert, adept with the bow, but lacking the equipment for close combat.\n"
+      },
+      "Hand Gunners": {
+        "image": "https://wiki.totalwar.com/w/Hand_Gunners_(ME)_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Hand gun (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"11",
+          "primary_bonus":"3",
+          "Range:":"55",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"13",
+          "arm":"5",
+          "defSkill":"8",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Somewhat inaccurate but capable of firing a powerful shot, the noise and smoke from these handguns can demoralise enemy troops.\n"
+      },
+      "Peasant Crossbowmen": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Crossbowmen_(ME)_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Steel crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"7",
+          "primary_bonus":"1",
+          "Range:":"160",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Short sword (Melee)",
+          "totalDefence":"4",
+          "arm":"0",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Wearing little to no armour, but armed with a crossbow these peasants can give far superior troops a nasty surprise.\n"
+      },
+      "Sudanese Gunners": {
+        "image": "https://wiki.totalwar.com/w/Sudanese_Gunners_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Arquebus (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"9",
+          "primary_bonus":"3",
+          "Range:":"120",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Short sword (Melee)",
+          "totalDefence":"7",
+          "arm":"0",
+          "defSkill":"7",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Hailing from all over Africa these well trained troops are armed with an arquebus.\n"
+      },
+      "Sudanese Javelinmen": {
+        "image": "https://wiki.totalwar.com/w/Sudanese_Javelinmen_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Javelin (Thrown)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"55",
+          "Ammunition:":"8",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"9",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"6",
+          "health":"1"
+        },
+        "description": "Good for weakening units and breaking up formations, but will quickly dissolve if caught in melee.\n"
+      }
+    },
+    "Кавалерия": {
+      "Camel Gunners": {
+        "image": "https://wiki.totalwar.com/w/Camel_Gunners_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry musket (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"8",
+          "primary_bonus":"4",
+          "Range:":"180",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Cavalry weak sword (Melee)",
+          "totalDefence":"6",
+          "arm":"0",
+          "defSkill":"6",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Mounted on a camel this unit fires a powerful musket called a jezail'n"
+      },
+      "Desert Cavalry": {
+        "image": "https://wiki.totalwar.com/w/Desert_Cavalry_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry javelin (Thrown)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"8",
+          "primary_bonus":"3",
+          "Range:":"55",
+          "Ammunition:":"8",
+          "secondary_weaponName":"Cavalry weak sword (Melee)",
+          "totalDefence":"8",
+          "arm":"0",
+          "defSkill":"5",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Fast skirmishers with javelins, best used to harass enemy flanks and fend off archers.\n"
+      },
+      "Granadine Crossbow Cavalry": {
+        "image": "https://wiki.totalwar.com/w/Granadine_Crossbow_Cavalry_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"8",
+          "primary_bonus":"3",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Cavalry weak sword (Melee)",
+          "totalDefence":"9",
+          "arm":"5",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "These troops combine the crossbow, favoured by Granadine troops, with the Eastern tradition of mobile warfare.\n"
+      },
+      "Granadine Jinetes": {
+        "image": "https://wiki.totalwar.com/w/Granadine_Jinetes_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry javelin (Thrown)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"8",
+          "primary_bonus":"3",
+          "Range:":"55",
+          "Ammunition:":"8",
+          "secondary_weaponName":"Cavalry weak sword (Melee)",
+          "totalDefence":"13",
+          "arm":"5",
+          "defSkill":"5",
+          "shield":"3",
+          "health":"1"
+        },
+        "description": "Lightly armoured skirmishers, armed with a javelin, and capable of forming a circle formation providing constant fire against the enemy.\n"
+      }
+    },
+    "Артиллерия": {
+      "Ballista": {
+        "image": "https://wiki.totalwar.com/w/Ballista_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ballista (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"180",
+          "Ammunition:":"50",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Resembling a giant crossbow, this powerful weapon can fling a javelin to a great range, skewering men with ease.\n"
+      },
+      "Bombard": {
+        "image": "https://wiki.totalwar.com/w/Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"325",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Primitive siege-gun forged of bronze or iron, can shoot solid stone or flaming shot. Inaccurate versus units.\n"
+      },
+      "Cannon": {
+        "image": "https://wiki.totalwar.com/w/Cannon_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Cannon (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"380",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The typical cannon'is powerful and good against both units and defences. Capable of firing solid and explosive shots.\n"
+      },
+      "Catapult": {
+        "image": "https://wiki.totalwar.com/w/Catapult_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Catapult (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"200",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Older style rock-flinging wooden artillery piece. Can throw flaming and normal shots.\n"
+      },
+      "Grand Bombard": {
+        "image": "https://wiki.totalwar.com/w/Grand_Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Grand bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"375",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The Grand Bombard has increased range, damage and accuracy compared to the bombard.\n"
+      },
+      "Trebuchet": {
+        "image": "https://wiki.totalwar.com/w/Trebuchet_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Trebuchet (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"215",
+          "Ammunition:":"3",
+          "Tertiary weapon:":"Trebuchet - cow carcass (Siege)",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Giant rock flinging artillery piece. Capable of flaming and normal shot. Also able to fling diseased cows!\n"
+      }
+    },
+    "Флот": {
+      "Baghlah": {
+        "image": "https://wiki.totalwar.com/w/Baghlah_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"18",
+          "primary_bonus":"0",
+          "totalDefence":"22",
+          "arm":"0",
+          "defSkill":"22",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Dhow": {
+        "image": "https://wiki.totalwar.com/w/Dhow_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"5",
+          "primary_bonus":"0",
+          "totalDefence":"6",
+          "arm":"0",
+          "defSkill":"6",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Lanternas": {
+        "image": "https://wiki.totalwar.com/w/Lanternas_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"18",
+          "primary_bonus":"0",
+          "totalDefence":"18",
+          "arm":"0",
+          "defSkill":"18",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "War Galley": {
+        "image": "https://wiki.totalwar.com/w/War_Galley_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"12",
+          "primary_bonus":"0",
+          "totalDefence":"12",
+          "arm":"0",
+          "defSkill":"12",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      }
+    }
+  },
+  "Польша": {
+    "Пехота": {
+      "Arquebusiers": {
+        "image": "https://wiki.totalwar.com/w/Arquebusiers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Arquebus (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"3",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Fired at close range, this noisy, smokey and lethal weapon causes morale damage as well as physical hurt.\n"
+      },
+      "Crossbow Militia": {
+        "image": "https://wiki.totalwar.com/w/Crossbow_Militia_(EE)_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"7",
+          "arm":"4",
+          "defSkill":"3",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Crossbow Militia are peasant crossbowmen called up to defend settlements. Very poorly armoured.\n"
+      },
+      "Hand Gunners": {
+        "image": "https://wiki.totalwar.com/w/Hand_Gunners_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Hand gun (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"11",
+          "primary_bonus":"2",
+          "Range:":"55",
+          "Ammunition:":"20",
+          "secondary_weaponName":"Sword (Melee)",
+          "totalDefence":"13",
+          "arm":"7",
+          "defSkill":"6",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Earliest hand-held firearm unit. Causes more fear than actual damage. These soldiers need to be capable in close combat due to the short range of their weapons.\n"
+      },
+      "Lithuanian Archers": {
+        "image": "https://wiki.totalwar.com/w/Lithuanian_Archers_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"6",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Weak sword (Melee)",
+          "totalDefence":"9",
+          "arm":"0",
+          "defSkill":"3",
+          "shield":"6",
+          "health":"1"
+        },
+        "description": "Skilled archery unit lightly armoured but equipped with a large shield. Able to lay stakes at start of battle.\n"
+      },
+      "Peasant Archers": {
+        "image": "https://wiki.totalwar.com/w/Peasant_Archers_(EE)_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Self bow (Missile)",
+          "primary_attack":"2",
+          "primary_bonus":"1",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Knife (Melee)",
+          "totalDefence":"1",
+          "arm":"0",
+          "defSkill":"1",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A peasant archer is armed with a small bow and knife. Not to be relied upon.\n"
+      }
+    },
+    "Кавалерия": {
+      "Lithuanian Cavalry": {
+        "image": "https://wiki.totalwar.com/w/Lithuanian_Cavalry_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry self bow (Missile)",
+          "primary_attack":"9",
+          "primary_bonus":"3",
+          "Range:":"100",
+          "Ammunition:":"25",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"11",
+          "arm":"0",
+          "defSkill":"7",
+          "shield":"4",
+          "health":"1"
+        },
+        "description": "Fierce East European horse archers. Lightly armoured, but still enjoy a good hand to hand scrap.\n"
+      },
+      "Polish Nobles": {
+        "image": "https://wiki.totalwar.com/w/Polish_Nobles_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry javelin (Thrown)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"11",
+          "primary_bonus":"4",
+          "Range:":"55",
+          "Ammunition:":"8",
+          "secondary_weaponName":"Cavalry sword (Melee)",
+          "totalDefence":"17",
+          "arm":"5",
+          "defSkill":"8",
+          "shield":"4",
+          "health":"1"
+        },
+        "description": "Able to circle in front their enemies and shoot, these excellent troops himage their javelins before engaging in melee.\n"
+      },
+      "Strzelcy": {
+        "image": "https://wiki.totalwar.com/w/Strzelcy_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Cavalry crossbow (Missile)",
+          "primary_weaponAttributes":"Armour piercing",
+          "primary_attack":"7",
+          "primary_bonus":"2",
+          "Range:":"120",
+          "Ammunition:":"30",
+          "secondary_weaponName":"Cavalry axe (Melee)",
+          "totalDefence":"12",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"4",
+          "health":"1"
+        },
+        "description": "Strzelcy, meaning shooters in Polish, are light horse troops protected by light armour using a small crossbow.\n"
+      }
+    },
+    "Артиллерия": {
+      "Ballista": {
+        "image": "https://wiki.totalwar.com/w/Ballista_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ballista (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"180",
+          "Ammunition:":"50",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Resembling a giant crossbow, this powerful weapon can fling a javelin to a great range, skewering men with ease.\n"
+      },
+      "Bombard": {
+        "image": "https://wiki.totalwar.com/w/Bombard_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Bombard (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"325",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Primitive siege-gun forged of bronze or iron, can shoot solid stone or flaming shot. Inaccurate versus units.\n"
+      },
+      "Cannon": {
+        "image": "https://wiki.totalwar.com/w/Cannon_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Cannon (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"380",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "The typical cannon'is powerful and good against both units and defences. Capable of firing solid and explosive shots.\n"
+      },
+      "Catapult": {
+        "image": "https://wiki.totalwar.com/w/Catapult_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"55",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Catapult (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"200",
+          "Ammunition:":"30",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Older style rock-flinging wooden artillery piece. Can throw flaming and normal shots.\n"
+      },
+      "Ribault": {
+        "image": "https://wiki.totalwar.com/w/Ribault_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Ribault (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"150",
+          "Ammunition:":"108",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "A small multi-barrel wagon mounted cannon. A good defensive tool able to fire in a nine-barrel barrage.\n"
+      },
+      "Serpentine": {
+        "image": "https://wiki.totalwar.com/w/Serpentine_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"65",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Serpentine (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"450",
+          "Ammunition:":"36",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Light cannon designed for use against troops rather than walls.\n"
+      },
+      "Trebuchet": {
+        "image": "https://wiki.totalwar.com/w/Trebuchet_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Knife (Melee)",
+          "primary_attack":"12",
+          "primary_bonus":"3",
+          "secondary_weaponName":"Trebuchet (Siege)",
+          "primary_weaponAttributes":"Armour piercing",
+          "Range:":"215",
+          "Ammunition:":"3",
+          "Tertiary weapon:":"Trebuchet - cow carcass (Siege)",
+          "totalDefence":"8",
+          "arm":"4",
+          "defSkill":"4",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "Giant rock flinging artillery piece. Capable of flaming and normal shot. Also able to fling diseased cows!\n"
+      }
+    },
+    "Флот": {
+      "Carrack": {
+        "image": "https://wiki.totalwar.com/w/Carrack_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"30",
+          "primary_bonus":"0",
+          "totalDefence":"30",
+          "arm":"0",
+          "defSkill":"30",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Cog": {
+        "image": "https://wiki.totalwar.com/w/Cog_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"5",
+          "primary_bonus":"0",
+          "totalDefence":"8",
+          "arm":"0",
+          "defSkill":"8",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Gun Holk": {
+        "image": "https://wiki.totalwar.com/w/Gun_Holk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"16",
+          "primary_bonus":"0",
+          "totalDefence":"16",
+          "arm":"0",
+          "defSkill":"16",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
+      },
+      "Holk": {
+        "image": "https://wiki.totalwar.com/w/Holk_(M2TW_unit).html",
+        "specifications": {
+          "primary_weaponName":"Melee",
+          "primary_attack":"10",
+          "primary_bonus":"0",
+          "totalDefence":"12",
+          "arm":"0",
+          "defSkill":"12",
+          "shield":"0",
+          "health":"1"
+        },
+        "description": "\n"
       }
     }
   }
