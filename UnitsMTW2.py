@@ -137,8 +137,17 @@ def App(page: flet.Page):
         def newWin(e):
             flet.app(App)
 
+
         data = e.control.data
         unit_info = getUnitInfo(data[0], data[1], data[2])
+        try:
+            attr = unit_info.get("specifications").get("secondary_weaponAttributes").replace("", "-")
+            att = unit_info.get("specifications").get("secondary_attack").replace("", "-")
+            bon = unit_info.get("specifications").get("secondary_bonus").replace("", "-")
+        except:
+            attr = "-"
+            att = "-"
+            bon = "-"
         page.add(
             Column(
                 [
@@ -166,9 +175,9 @@ def App(page: flet.Page):
                             Column(
                                 [
                                     Text(unit_info.get("specifications").get("secondary_weaponName") if unit_info.get("specifications").get("secondary_weaponName") != "" else "Второе оружие отсутствует", width=200, height=25),
-                                    Text(f'Атрибут: {unit_info.get("specifications").get("secondary_weaponAttributes") if unit_info.get("specifications").get("secondary_weaponAttributes") != "" else "Нету"}', width=200),
-                                    Text(f'Атака: {unit_info.get("specifications").get("secondary_attack")}', width=200),
-                                    Text(f'Бонусы: {unit_info.get("specifications").get("secondary_bonus")}', width=200),
+                                    Text("Атрибут: "+attr, width=200),
+                                    Text("Атака: "+att, width=200),
+                                    Text("Бонус: "+bon, width=200),
                                     Text(f''),
                                     Text(f'Щит: {unit_info.get("specifications").get("shield")}'),
                                     Text(f'Здоровье: {unit_info.get("specifications").get("health")}'),
