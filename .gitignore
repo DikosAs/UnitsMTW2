@@ -6,9 +6,6 @@
 /dist/
 /parssite/
 /app/
-/release/
 *.rar
-*.spec
-.gitignore
 *.zip
-a.json
+*.spec
